@@ -6,9 +6,9 @@ on:
       - '**'
       - '!.gitignore'
       - '!README.md'
-  # schedule:
+  schedule:
     # 每天晚六点十分执行一次
-    # - cron:  '10 18 * * *'
+    - cron:  '10 18 * * *'
 
 jobs:
   build:
